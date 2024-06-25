@@ -1,0 +1,71 @@
+.jb-bookings-main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  font-size: 1.2rem;
+}
+
+.jb-booking-card {
+  background-color: #f4f4f4;
+
+  height: auto;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.jb-booking-card-main {
+  display: flex;
+  /* gap: 2rem; */
+
+}
+.jb-strong{
+    font-size: 1.1rem;
+}
+.jb-image-container {
+  flex: 1;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jb-image-container img{
+    max-width:100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.jb-heading-card{
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  color: #666;
+  font-weight: 400;
+}
+.jb-booking-details {
+  flex: 2;
+  /* background-color: rgb(225, 225, 225); */
+  margin-left: 2rem;
+  /* border-radius: 5rem; */
+
+}
+
+.jb-booking-details p{
+    margin-bottom: 8px;
+
+}
+
+.sorting-icon {
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #ebe8e8;
+  margin: auto;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+}
+
+.sorting-icon:hover {
+  color: #007bff; /* Change color on hover */
+}
